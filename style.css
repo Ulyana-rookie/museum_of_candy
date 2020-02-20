@@ -28,6 +28,11 @@ body {
     color: #ea1c2c;
 }
 
+.navbar.scrolled {
+    background: rgba(222, 192, 222, 0.9);
+    transition: background 300ms ease-in-out;
+}
+
 /* HEADING */
 
 #headingGroup h1 {
@@ -52,8 +57,16 @@ body {
     color: #f498b8;
 }
 
+.icon:hover {
+    transform: rotate(-30deg);
+}
+
 @media only screen and (max-width: 1200px) {
     .bulb h1 {
         font-size: 2rem;
+    }
+
+    #headingGroup h1 {
+        font-size: 2.3rem;
     }
 }
